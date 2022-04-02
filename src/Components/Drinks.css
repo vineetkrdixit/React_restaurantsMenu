@@ -2,23 +2,26 @@
   display: flex;
   width: 900px;
   margin: 0 auto;
+  padding: 3px;
 }
 .drinkItems:hover {
   transform: scale(1.1);
   transition: transform 400ms ease-out;
 }
-li {
-  display: flex;
-  list-style-type: none;
-  background-color: rgb(133, 122, 96);
-  border: 1px solid black;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-}
+
 .drink-button {
   width: 100%;
   border: none;
   background-color: cadetblue;
+}
+.TypeDiv {
+  border-radius: 10px;
+}
+.TypeDish {
+  background-color: rgb(147, 241, 147);
+  border-radius: 10px;
+}
+.TypePrice {
+  background-color: cadetblue;
+  border-radius: 10px;
 }

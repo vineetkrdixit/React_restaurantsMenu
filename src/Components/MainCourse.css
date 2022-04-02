@@ -2,6 +2,7 @@
   display: flex;
   width: 900px;
   margin: 0 auto;
+  padding: 3px;
 }
 .maincourse:hover {
   transform: scale(1.1);
@@ -10,7 +11,7 @@
 li {
   display: flex;
   list-style-type: none;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   border: 1px solid black;
   height: 40px;
   justify-content: center;
@@ -21,4 +22,16 @@ li {
   width: 100%;
   border: none;
   background-color: cadetblue;
+}
+.DDiv {
+  background-color: rgb(147, 241, 147);
+  border-radius: 10px;
+}
+.TDiv {
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+.PDiv {
+  background-color: cadetblue;
+  border-radius: 10px;
 }
